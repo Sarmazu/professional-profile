@@ -2,15 +2,15 @@
 
 This file describes preferred role directions for career search and AI-assisted role matching.
 
-It is not a closed list. Agents may suggest adjacent roles if they are strongly supported by the candidate's experience. However, role matching should stay close to infrastructure, platform, technical program management, engineering productivity, delivery transformation, and AI-infrastructure / AgentOps directions.
+It is not a closed list. Agents may suggest adjacent roles if they are strongly supported by the candidate's experience. However, role matching should stay close to technical program management, infrastructure, platform, delivery transformation, cloud/SaaS platform services, engineering productivity, and AI-infrastructure / AgentOps directions.
 
-## Primary search frame
+## Primary positioning
 
-Technical Program Manager / Infrastructure & Platform Transformation
+Technical Program Manager / Infrastructure, Platform & Delivery Transformation
 
 This is the main positioning frame. It reflects experience in technical programs, infrastructure transformation, platform and delivery changes, CI/CD, Kubernetes/VM infrastructure, production readiness, capacity planning, migration programs, cross-functional coordination, and mission-critical systems.
 
-## Priority 1 — main target roles
+## Layer 1 — Core target roles
 
 ### 1. Technical Program Manager — Infrastructure / Platform
 
@@ -102,77 +102,67 @@ Why relevant:
 
 Relevant to experience managing infrastructure function, VM/Kubernetes/capacity planning, infrastructure lifecycle, production readiness, and coordination with architecture, operations, and product teams.
 
-## Priority 2 — adjacent and interesting roles
+## Layer 2 — Platform / Cloud / SaaS expansion
 
-### 6. DevOps Manager / Head of DevOps
+This layer extends the positioning from internal enterprise infrastructure toward cloud, SaaS and managed platform services. These roles are relevant when the vacancy is about platform service development, delivery roadmap, onboarding consumers, reliability, infrastructure lifecycle, service operations, releases, and coordination between engineering, product and operations.
+
+### 6. Cloud / SaaS Platform Program Manager
 
 Search terms:
 
 ```text
-DevOps Manager
-Head of DevOps
-DevOps Team Lead
-DevOps Platform Lead
-Руководитель DevOps
-Руководитель DevOps-направления
+Cloud Platform Program Manager
+SaaS Platform Program Manager
+Cloud Product Delivery Manager
+Platform Services Program Manager
+Managed Services Program Manager
+Cloud Operations Program Manager
+Technical Program Manager — Cloud / SaaS Platform
+Руководитель программы развития cloud-платформы
+Руководитель платформенных сервисов
+Руководитель программы развития SaaS-платформы
 ```
+
+Why relevant:
+
+Relevant to experience managing a mission-critical platform used by many consuming systems, platform onboarding, SLA/processes, infrastructure lifecycle, capacity planning, Kubernetes/VM infrastructure, CI/CD, releases and production readiness.
 
 Fit condition:
 
-Relevant if the role includes platform ownership, CI/CD transformation, delivery management, infrastructure ownership, or cross-team engineering enablement. Less relevant if it is only a small line-management DevOps role.
+Good fit when the role is about delivery, platform operations, customer or internal consumer onboarding, reliability, roadmap execution and cross-functional technical programs.
 
-### 7. Release Engineering Manager / Delivery Platform Manager
+Less relevant when the role is mainly commercial SaaS product ownership focused on pricing, revenue, churn, CAC, go-to-market or P&L.
 
-Search terms:
-
-```text
-Release Engineering Manager
-Delivery Manager
-Software Delivery Manager
-CI/CD Manager
-Delivery Platform Lead
-Руководитель производственного конвейера
-Руководитель delivery-направления
-```
-
-Why relevant:
-
-Relevant to experience with CI/CD migration, release process, nightly deploy, production update, delivery pipelines, and reducing release effort.
-
-### 8. Engineering Productivity Manager / Developer Experience Manager
+### 7. Platform Services / Managed Services Manager
 
 Search terms:
 
 ```text
-Engineering Productivity Manager
-Developer Experience Manager
-Developer Platform Manager
-Internal Developer Platform Lead
-DevEx Manager
+Platform Services Manager
+Managed Services Manager
+Technical Services Manager
+Service Delivery Manager — Platform Services
+Cloud Managed Services Lead
+Руководитель платформенных сервисов
+Руководитель managed services
+Руководитель технических сервисов
 ```
 
 Why relevant:
 
-Relevant to experience improving engineering team productivity through pipelines, standards, automation, onboarding, documentation, quality gates, and shared platform services.
+Relevant to experience with platform consumer onboarding, SLA for standard integrations, delivery operations, production readiness, technical service model, automation of standard requests, and coordination between product teams, platform teams and operations.
 
-### 9. Private Cloud / IaaS Platform Manager
+Fit condition:
 
-Search terms:
+Good fit when the role includes technical platform ownership, delivery, automation, reliability, infrastructure or cloud/platform services.
 
-```text
-Private Cloud Platform Manager
-IaaS Platform Manager
-Cloud Platform Manager
-Cloud Infrastructure Manager
-Руководитель private cloud
-Руководитель IaaS-платформы
-```
+Less relevant if the role is generic ITSM service delivery without engineering depth.
 
-Why relevant:
+## Layer 3 — AI infrastructure and AI-enabled productivity
 
-Relevant to experience with OpenStack, VM infrastructure, Kubernetes, capacity planning, cloud resource lifecycle, and enterprise/private cloud environments.
+This layer is an adjacent and differentiating direction. AI-related pet-lab experience should be presented as hands-on learning and practical understanding of AI infrastructure, external memory, AgentOps, semantic retrieval and agentic tooling. It must not be presented as production enterprise AI platform experience.
 
-### 10. AI Infrastructure Program Manager
+### 8. AI Infrastructure Program Manager
 
 Search terms:
 
@@ -181,73 +171,137 @@ AI Infrastructure Program Manager
 AI Platform Program Manager
 GenAI Infrastructure Program Manager
 AI Tools Program Manager
-```
-
-Fit condition:
-
-Relevant as an AI-adjacent direction. AI pet-lab experience should be presented as hands-on learning and practical understanding of AI infrastructure, external memory, AgentOps, and agentic tooling. It must not be presented as production enterprise AI platform experience.
-
-### 11. GenAI Platform Lead / Agentic Systems Platform Lead
-
-Search terms:
-
-```text
-GenAI Platform Lead
-Agentic Systems Platform Lead
-AI Engineering Productivity Lead
-Internal AI Tools Lead
-AgentOps Lead
-```
-
-Fit condition:
-
-Relevant if the role is about implementing internal AI tools, agents, knowledge base workflows, automation, and engineering productivity. Less relevant if the role expects ML research, model training, or deep production MLOps ownership.
-
-### 12. Knowledge / Automation Platform Lead
-
-Search terms:
-
-```text
-Knowledge Platform Lead
-Automation Platform Lead
-Workflow Automation Lead
-Internal Automation Lead
-AI-enabled Knowledge Management Lead
+Technical Program Manager — AI Infrastructure
 ```
 
 Why relevant:
 
-Relevant to self-hosted automation, external memory, knowledge workflows, n8n, MemVault, agentic knowledge operations, and AI-enabled personal/team knowledge infrastructure.
+Relevant as an AI-adjacent direction: infrastructure/platform background plus self-hosted AI pet-lab experience with external memory, AgentOps, MCP, semantic retrieval, OpenClaw, MemVault, MemOps and PetOps.
 
-## Roles not recommended as main focus
+Fit condition:
 
-These roles may appear in search results, but should not be treated as the main positioning unless the specific vacancy strongly overlaps with infrastructure, platform, delivery, or technical programs.
+Good fit when the role is about managing AI infrastructure programs, internal AI platform initiatives, AI tooling enablement, agent runtime, knowledge workflows, or engineering-facing AI platforms.
+
+Less relevant if the role expects ML research, model training, deep MLOps implementation or hands-on AI engineering as the core responsibility.
+
+### 9. AI Engineering Productivity Lead / Internal AI Tools Lead
+
+Search terms:
 
 ```text
-Classic Engineering Manager
-Product Manager
-Pure Cloud Architect / Solution Architect
-AI Engineer
-ML Engineer
-MLOps Engineer
-Business Systems Manager
-Head of Internal Systems Development
-Data / BI Delivery Manager
-Digital Transformation Manager
-Scrum Master
-Agile Coach
-Generic Project Manager
+AI Engineering Productivity Lead
+Internal AI Tools Lead
+AI Developer Productivity Lead
+AI Enablement Lead
+GenAI Tools Program Manager
+Руководитель внутренних AI-инструментов для разработки
+Руководитель AI-инструментов инженерной продуктивности
 ```
+
+Why relevant:
+
+Relevant as an extension of internal developer platform experience: CI/CD, delivery, onboarding, engineering standards, developer workflows, knowledge workflows, AgentOps and AI-enabled tooling.
+
+Fit condition:
+
+Good fit when the role is about implementing AI tools, knowledge bases, automation, agents, developer productivity and engineering enablement.
+
+Less relevant if the role is about ML research, model training, or MLOps engineering as an individual contributor.
+
+### 10. AgentOps / Knowledge Automation Platform Lead
+
+Search terms:
+
+```text
+AgentOps Lead
+Agentic Systems Platform Lead
+Knowledge Automation Platform Lead
+Workflow Automation Lead
+AI-enabled Knowledge Management Lead
+Internal Automation Lead
+```
+
+Why relevant:
+
+Relevant to self-hosted automation, external memory, knowledge workflows, n8n, MemVault, OpenClaw, Basic Memory/MCP, MemOps, PetOps and AI-enabled knowledge operations.
+
+Fit condition:
+
+Good fit when the role allows a platform/program/enablement angle: agent operations, automation platform, knowledge workflows, internal tools, AI-assisted operations.
+
+Less relevant if the role is positioned as pure AI Engineer or ML Engineer.
+
+## Supporting / opportunistic roles
+
+These roles may be relevant if the specific vacancy strongly overlaps with infrastructure, platform, delivery, engineering enablement, cloud/platform services or technical programs. They should not replace the primary positioning.
+
+### 11. DevOps Manager / Head of DevOps
+
+Search terms:
+
+```text
+DevOps Manager
+Head of DevOps
+DevOps Platform Lead
+Руководитель DevOps
+Руководитель DevOps-направления
+```
+
+Fit condition:
+
+Relevant if the role includes platform ownership, CI/CD transformation, delivery management, infrastructure ownership, or cross-team engineering enablement.
+
+Less relevant if it is only a small line-management DevOps role without a transformation or platform agenda.
+
+### 12. Release Engineering Manager / Delivery Platform Manager
+
+Search terms:
+
+```text
+Release Engineering Manager
+Delivery Platform Manager
+Software Delivery Manager
+CI/CD Manager
+Delivery Platform Lead
+Руководитель производственного конвейера
+Руководитель delivery-направления
+```
+
+Fit condition:
+
+Relevant if the role is about delivery platform, release engineering, CI/CD transformation, production update, standardization of delivery and reducing release effort.
+
+Less relevant if it is only release coordination without engineering platform ownership.
+
+### 13. Engineering Productivity Manager / Developer Experience Manager
+
+Search terms:
+
+```text
+Engineering Productivity Manager
+Developer Experience Manager
+Developer Platform Manager
+DevEx Manager
+Engineering Enablement Manager
+```
+
+Fit condition:
+
+Relevant if the role is about improving engineering team productivity through platform services, CI/CD, automation, onboarding, developer workflows, documentation, quality gates and shared engineering practices.
+
+May overlap with Internal Developer Platform Lead, but is broader and can include process, tooling, metrics and AI-enabled productivity.
 
 ## Role matching guidance for agents
 
 Agents should prioritize roles where the candidate's experience can be supported by concrete cases:
 
-- infrastructure and platform transformation;
 - technical programs and cross-team delivery;
+- infrastructure and platform transformation;
 - mission-critical platform changes;
 - CI/CD and delivery pipeline modernization;
 - internal developer platform and platform engineering;
+- cloud/SaaS/platform service delivery;
+- managed platform services and technical service models;
 - Kubernetes, VM, OpenStack/private cloud, capacity planning;
 - production readiness, cutover, risk and dependency management;
 - engineering productivity and developer experience;
@@ -255,4 +309,4 @@ Agents should prioritize roles where the candidate's experience can be supported
 
 Agents may suggest other roles if they are close to these patterns, but should explain why the role is relevant and which cases support it.
 
-Agents should avoid pushing the profile toward roles that require a different core background, such as pure software engineering management with deep code ownership, ML engineering, product management, or generic project management.
+Agents should not treat this file as a closed list. It is a priority map for search, matching and resume generation.

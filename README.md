@@ -56,10 +56,10 @@ Do not publish:
 - personal contact details unless explicitly approved;
 - secrets, tokens, IP addresses, configs, infrastructure details;
 - internal employer system names;
-- raw internal drafts;
+- unapproved raw internal drafts;
 - private chat exports;
 - unverified metrics;
-- emotionally loaded or internal conflict wording;
+- confidential or unsafe internal conflict details;
 - claims that are stronger than the source evidence.
 
 
@@ -72,6 +72,7 @@ Good agent behavior:
 - read README.md and AGENTS.md first;
 - use this file to understand the repository's purpose;
 - preserve factual wording from existing files;
+- preserve the candidate's authored voice when it is already present in approved source material;
 - generate derivative materials only from available facts;
 - keep public wording neutral, concise, and evidence-based;
 - clearly mark limitations and non-goals;
@@ -81,6 +82,7 @@ Bad agent behavior:
 
 - inventing missing dates, metrics, roles, or outcomes;
 - turning internal notes into marketing copy;
+- flattening intentionally vivid candidate wording into generic corporate or AI-neutral prose without a reason;
 - adding confidential details;
 - overwriting public-safe wording with raw private text;
 - treating this repository as a complete biography;
@@ -90,13 +92,34 @@ Bad agent behavior:
 
 The repository is expected to contain a small number of Markdown files rather than a large documentation tree.
 
+Current public content:
+
+- `README.md` — repository purpose, content model, and publication principles.
+- `AGENTS.md` — mandatory rules for AI agents working with the repository.
+- `ai-readable-professional-profile.md` — AI-readable professional profile generated from the approved source cases table. This is the main public fact base for derivative materials.
+- `target-roles.md` — target role map for screening, matching, positioning, and resume generation.
+- `resumes/technical-program-manager-hh.md` — role-specific hh.ru-style resume for Technical Program Manager / Руководитель технических программ.
+- `resumes/internal-developer-platform-lead-hh.md` — role-specific hh.ru-style resume for Internal Developer Platform Lead / Руководитель внутренней платформы разработки.
+- `resumes/ai-infrastructure-program-manager-hh.md` — role-specific hh.ru-style resume for AI Infrastructure Program Manager / AI Platform Program Manager.
+
+The core workflow is:
+
+1. Private source materials are updated outside this repository.
+2. `ai-readable-professional-profile.md` is refreshed from the approved source table while preserving the established Markdown structure.
+3. Role-specific materials are generated from the AI-readable profile and `target-roles.md`.
+4. Public safety rules from `AGENTS.md` are applied before publishing.
+
 Typical structure:
 
 ```text
 README.md
+AGENTS.md
 ai-readable-professional-profile.md
+target-roles.md
 resumes/
   technical-program-manager-hh.md
+  internal-developer-platform-lead-hh.md
+  ai-infrastructure-program-manager-hh.md
 ```
 
 The structure can grow, but it should stay simple. New files should be created only when they solve a clear publication, screening, or automation need.
