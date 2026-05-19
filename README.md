@@ -54,7 +54,7 @@ Appropriate content:
 Do not publish:
 
 - personal contact details unless explicitly approved;
-- secrets, tokens, IP addresses, domains, configs, infrastructure details;
+- secrets, tokens, IP addresses, configs, infrastructure details;
 - internal employer system names;
 - raw internal drafts;
 - private chat exports;
